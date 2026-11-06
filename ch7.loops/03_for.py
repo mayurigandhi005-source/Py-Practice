@@ -19,13 +19,34 @@
 #     print(i)
 
 str = "MayuriGandhi"
-for i in str:
-    if(i=='G'):
+# for i in str:
+#     if(i=='G'):
     
-        break
-    print(i)
-else:
-    print("end")   
+#         break
+#     print(i)
+# else:
+#     print("end")   
+
+# practice
+# num = [1,4,9,16,25,36,49,64,81,100]
+# for i in num:
+#     print(i)
+
+
+num = (1,4,9,16,25,36,49,64,81,100)
+x=25
+idx=0
+for i in num:
+    if(i==x):
+        print(idx)
+    idx+=1
+
+
+
+
+
+
+    
 
   
 
