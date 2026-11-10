@@ -1,7 +1,13 @@
-def clac(a,b):
-    sum=a+b
-    print(sum)
-    return sum
-clac(4,5)   
-clac(2,5)
-clac(1,2) 
+# def clac(a,b):
+#     sum=a+b
+#     print(sum)
+#     return sum
+# clac(4,5)   
+# clac(2,5)
+# clac(1,2) 
+
+# function definition
+def calc(a,b): # parameters
+    return a+b 
+sum = calc(1,2) # function call; arguments
+print(sum) 
